@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+body {
+    background-color: #84E1AD;
+}
+
+header{
+    background-image: linear-gradient(to bottom ,#3ACF7C, #0e361f);
+    color: white;
+    margin: -10px;
+    padding: 10px;
+    margin-bottom: -20px;
+}
+
+main {
+    background-color: white;
+    width: 650px;
+    margin: auto;
+    margin-top: 0px;
+    
+}
+
+
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+}
+
+p{
+    text-align: center;
+    padding-bottom: 35px;
+    color: rgb(236, 236, 236);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    padding: 8px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: "Anta", sans-serif;
+    font-style: normal;
+    color: #10723e;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h3 {
+    background-image: linear-gradient(to right, #aaeec8, white );
+    font-family: "Anta", sans-serif;
+    font-style: normal;
+    color: #10723e;
+    font-weight: bold;
+    padding: 1px;
+    width: 583px;
+    margin: 10px;
+
+}
+
+article {
+    text-align: justify;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+section > img {
+    width: 650px;
+    margin: 5px;
+}
+
+section#margens > img {
+    width: 638px;
+}
+
+section#bugdroid > img {
+    width: 236px;
+    height: 146px;
+    margin-left: 220px;
+}
+    
+
+a {
+    text-decoration: none;
+    color: #047035;
+    font-weight: bold;
+}
+
+#video {
+    border-left: 30px solid #1A5C38;
+    border-right: 30px solid #1A5C38;
+    border-top: 10px solid #1A5C38;
+    border-bottom: 10px solid #1A5C38;
+    margin: 0px;
+}
+
+iframe {
+    margin: 0px;
+}
+
+.pagina {
+    background-color: #cdfae1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.paginam {
+    background-color: #cdfae1;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: left;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #2FA866;
+    padding: 5px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.boxlv {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    
+}
+
+.embaixo {
+    margin-top: 0px;
+    height: 0px;
+}
+
+.boxlv::before{
+    content: "🗸";
+}
+
+.inlinelv {
+    display: inline;
+    padding: 252px;
+}
+
+
+

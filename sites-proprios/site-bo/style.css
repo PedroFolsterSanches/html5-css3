@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+/*FONTES BAIXADAS */
+
+@font-face {
+    font-family: 'wogo';
+    src: url('./fontes/CoffeCake.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* VARIAVEIS --------------------------------------------------------*/
+
+:root {
+    /* CORES */
+    --cor0: #C58C56;
+    --cor1: #F09542;
+    --cor2: #9B7B5D;
+    --cor3: #706356;
+    --cor4: #46413C;
+    --cor5: #332B24;
+    --corclara: #FFC697;
+
+    /* FONTES */
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-wogo: 'wogo', sans-serif;
+}
+
+/* GLOBAL ------------------------------------------------------------*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* GERAL ------------------------------------------------------------*/
+
+body {
+    background-color: var(--corclara);
+}
+
+/* CABEÇALHO ---------------------------------------------------------*/
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor1) );
+   
+}
+
+header > h1 {
+    font-family: var(--fonte-wogo);
+    text-align: center;
+    font-size: 2.2em;
+    color: var(--cor4);
+
+}
+
+header > p{
+    font-family: var(--fonte-padrao);
+    font-weight: bolder;
+    text-align: center;
+    color: var(--cor4);
+    padding-bottom: 5px;
+}
+
+/* MENU  ---------------------------------------------------------*/ 
+
+nav {
+    background-color: #46413ce3;
+}
+
+nav > a {
+    font-family: var(--fonte-padrao);
+    font-weight: bolder;
+    color: var(--corclara);
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* CONTEUDO PRINCIPAL -----------------------------------------------*/
+
+main {
+    margin: auto;
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main h3 {
+    text-align: center;
+}

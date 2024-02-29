@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* GLOBAL */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* GERAL */
+
+body {
+    background-image: url(imagens/espaco.jpg);
+}
+
+/* IMAGENS */
+
+#astronauta {
+    min-width: 300px;
+    max-width: 500px;
+    margin: auto;
+    width: 100%;
+    display: block;
+    margin-top: 250px;
+
+}
