@@ -86,10 +86,16 @@ main {
 main > article {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
+    line-height: 2.3em;
     padding-left: 30px;
     font-size: 3vw;
 }
+
+main p {
+    padding-bottom: 2em;
+}
+
+/* Class */
 
 main > .branco {
     background-color: white;
@@ -99,13 +105,31 @@ main > .branco {
 main > .imagem {
     background-color: rgb(32, 32, 32);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
 }
 
 main > .imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(54, 54, 54, 0.582);
+    background-color: rgba(27, 27, 27, 0.678);
+    text-shadow: 1px 1px 0px black;
 }
+
+/* Id */ 
+
+main #img1 {
+    background-image: url('./imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+main #img2 {
+    background-image: url('./imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
 
 /* Rodapé --------------------------------------------------------*/
 
