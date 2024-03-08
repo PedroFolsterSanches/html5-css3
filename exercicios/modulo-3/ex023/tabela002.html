@@ -20,6 +20,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -27,9 +28,12 @@
             padding: 10px;
         }
 
-        thead, tfoot {
+        thead > tr > th , tfoot {
             background-color: gray;
             color: white;
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
 
         .num {
@@ -204,6 +208,8 @@
             </tr>
         </tfoot>
     </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos hic error ut voluptatum saepe doloribus aliquid pariatur, natus expedita quis id porro dolorem eveniet quam cumque corrupti. Voluptatem, quia at? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente suscipit quaerat commodi natus, voluptas corporis, doloribus, numquam saepe consequuntur mollitia voluptate. Officia ipsam, atque blanditiis ratione fugiat hic autem eveniet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque rerum voluptatem sint quibusdam quidem. Ipsa veniam modi aliquid quae! Cupiditate vero id esse eos reiciendis veniam pariatur totam, voluptatum earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repudiandae ratione quis veritatis maxime similique distinctio sapiente porro, explicabo minus repellendus. Voluptas ipsa minima dolor velit quasi, aliquid officia voluptate?</p>
 
     <p>Oi</p>
 </body>
