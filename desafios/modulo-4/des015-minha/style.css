@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/*Global ------------------------------------------------------------------*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Geral --------------------------------------------------------------------*/
+
+body {
+    background-image: url('pacote-d013/imagens/fundo-madeira.jpg');
+}
+
+/* Cabeçalho ---------------------------------------------------------------*/
+
+header  img {
+    display: block;
+    width: 5%;
+    border-radius: 300px;
+    margin-left: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+/* Conteúdo ---------------------------------------------------------------*/
+
+
+main img {
+    margin: auto;
+    display: inline-block;
+    margin-bottom: 100px;
+    
+}
+
