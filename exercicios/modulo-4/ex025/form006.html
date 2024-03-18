@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+
+        fieldset {
+            width: 100px;
+        }
+
+        #icor {
+            width: 25px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+    <fieldset>
+        <legend></legend>
+
+        <p>
+
+            <label for="icor">Cor:</label>
+            <input type="color" name="cor" id="icor" value="#00ff00">
+
+        </p>
+
+        <p>
+
+            <label for="inivel">Nivel de Satisfação:</label>
+            <input type="range" name="nivel" id="inivel" min="1" max="5" value="2">
+
+        </p>
+
+        <p>
+
+            <label for="ifile">Envie um arquivo:</label>
+            <input type="file" name="file" id="ifile">
+
+        </p>
+
+    </fieldset>
+
+    <p>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limar">
+
+    </p>
+
+</form>
+
+</body>
+</html>
