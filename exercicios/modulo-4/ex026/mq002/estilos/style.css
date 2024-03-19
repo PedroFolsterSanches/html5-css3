@@ -1,3 +1,29 @@
 @charset "UTF-8";
 
 /* TODOS APARELHOS */
+
+/* Global */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Geral */
+
+html , body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Caceçalho */
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 0px #1c30c7;
+    padding: 10px;
+}
