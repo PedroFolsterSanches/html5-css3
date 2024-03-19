@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* IMPRESSORA */
+
+/* Global */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Geral */
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+}
+
+/* Cabeçalho */
+
+menu {
+    display: none;
+}
+
+/* Conteúdo Principal */
+
+article {
+    width: 100%;
+}
+
+article::after {
+    content: 'Esse artigo foi impresso através do site www.cursoemvideo.com';
+}
