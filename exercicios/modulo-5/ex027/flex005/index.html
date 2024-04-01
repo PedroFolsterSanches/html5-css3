@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralização com Flex-Box</title>
+    
+    <style>
+
+        /*Global*/
+        * {
+            /*margem e preenchimento*/
+            margin: 0px;
+            padding: 0px;
+            /*caixa*/
+            box-sizing: border-box;
+        }
+
+        /*Geral*/
+        body{
+            /*fundo*/
+            background-color: lightsalmon;
+        }
+
+        /*Conteúdo*/
+        main {
+            /*caixa*/
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            /*fundo*/
+            background-color: lightgreen;
+            /*tamanho*/
+            width: 100vw;
+            height: 100vh;
+        }
+
+        section {
+            /*fundo*/
+            background-color: lightseagreen;
+            /*tamanho*/
+            width: 200px;
+            height: 200px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <main>
+
+        <section>
+
+            <h1>Tela de Login</h1>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
