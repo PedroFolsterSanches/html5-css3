@@ -45,8 +45,7 @@ header > h1 {
     color: white;
     /*sombra*/
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.699);
-    /*borda*/
-    border: 2px dotted black
+    
 }
 
 /*Menu*/
@@ -57,8 +56,7 @@ nav {
     flex-flow: row wrap;
     justify-content: flex-end;
 
-    /*borda*/
-    border: 2px dotted black
+    
 }
 
 nav > a {

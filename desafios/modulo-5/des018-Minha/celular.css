@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*CELULAR*/
+
+@media screen and (max-width: 662px) {
+    /*Cabeçalho*/
+    header > h1 {
+        /*texto*/
+        text-align: center;
+        /*margem e preenchimento*/
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    /*menu*/
+    nav {
+        /*margem e preechimento*/
+        margin: auto;
+    }
+
+    nav > a {
+        /*tamanho*/
+        width: 100%;
+    
+    }
+}
