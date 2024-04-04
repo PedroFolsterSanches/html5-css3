@@ -27,6 +27,11 @@ body , html {
 /*Cabeçalho*/
 
 header {
+    /*caixa*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
     /*fundo*/
     background-color: gray;
     /*margem e preenchimento*/
@@ -34,26 +39,49 @@ header {
 }
 
 header > h1 {
+    /*flex*/
+    flex: 0 0 200px;
     /*texto*/
     color: white;
     /*sombra*/
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.699);
-    /*margem e preenchimento*/
-    margin-left: 5px;
-    padding-top: 5px;
     /*borda*/
-    border: 1px dotted black
+    border: 2px dotted black
 }
 
 /*Menu*/
 
 nav {
-    border: 1px dotted black
+    /*caixa*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+
+    /*borda*/
+    border: 2px dotted black
 }
 
 nav > a {
-    /*flex*/
-    align-self: ;
+    /*fundo*/
+    background-color: black;
+    /*texto*/
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    /*margem e preenchimento*/
+    padding: 10px;
+    margin: 5px;
+    /*borda*/
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    /*fundo*/
+    background-color: white;
+    /*texto*/
+    color: black;
+    /*transição*/
+    transition: background-color 0.5s;
 }
     
 
