@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/*Global*/
+
+*{
+    /*margem e preenchimento*/
+    margin: 0px;
+    padding: 0px;
+    /*fonte*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*caixa*/
+    box-sizing: border-box;
+}
+
+/*Geral*/
+
+body , html {
+    /*fundo*/
+    background-color: rgb(230, 228, 228);
+    /*tamanho*/
+    width: 100vw;
+    height: 100vh;
+    /*texto*/
+    font-size: 1em;
+}
+
+/*Cabeçalho*/
+
+header {
+    /*fundo*/
+    background-color: gray;
+    /*margem e preenchimento*/
+    padding: 10px;
+}
+
+header > h1 {
+    /*texto*/
+    color: white;
+    /*sombra*/
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.699);
+    /*margem e preenchimento*/
+    margin-left: 5px;
+    padding-top: 5px;
+    /*borda*/
+    border: 1px dotted black
+}
+
+/*Menu*/
+
+nav {
+    border: 1px dotted black
+}
+
+nav > a {
+    /*flex*/
+    align-self: ;
+}
+    
+
+/*Conteúdo*/
+
+main {
+    /*caixa*/
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.438);
+    /*fundo*/
+    background-color: white;
+    /*margem e preenchimento*/
+    margin: 10px;
+    padding: 10px;
+    /*borda*/
+    border-radius: 10px;
+
+}
